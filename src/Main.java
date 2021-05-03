@@ -32,6 +32,7 @@ public class Main {
         for(Product product:products){
             System.out.println(product.name);
             System.out.println(product.unitPrice);
+            System.out.println(product.detail);
         }
 
         //normally we use getProduct method after =,
